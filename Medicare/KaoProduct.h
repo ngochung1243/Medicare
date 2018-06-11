@@ -12,4 +12,6 @@
 @property (strong, nonatomic) NSString *_id;
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *imageURL;
+
+- (instancetype)initWithId:(NSString *)_id name:(NSString *)name image:(NSString *)imagePath;
 @end

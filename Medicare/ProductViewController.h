@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MedicarePlace.h"
 
 @interface ProductViewController : UIViewController
-
+@property (strong, nonatomic) MedicarePlace *place;
 @end
